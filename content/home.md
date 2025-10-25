@@ -1,6 +1,7 @@
 ---
-title: "Thoughts on design, code, and everything in between"
-subtitle: "A personal space where I share insights about user experience, web development, and the craft of building beautiful digital products."
-primaryButtonText: "Read the blog"
-secondaryButtonText: "Learn more about me"
+title: grrrrrrrrrrrrr
+subtitle: A personal space where I share insights about user experience, web
+  development, and the craft of building beautiful digital products.
+primaryButtonText: Read the blog
+secondaryButtonText: Learn more about me
 ---
