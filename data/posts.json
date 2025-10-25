@@ -1,5 +1,13 @@
 [
   {
+    "slug": "yulavii-blog",
+    "title": "yulavii",
+    "excerpt": "this should be auto :(",
+    "date": "2025-10-26",
+    "readTime": "6 7 ha ha",
+    "content": "sdfasdfadsfadfasdfaf"
+  },
+  {
     "slug": "art-of-minimalist-design",
     "title": "The Art of Minimalist Design",
     "excerpt": "Exploring how less can truly be more in modern web design, and why simplicity often leads to the most elegant solutions.",
