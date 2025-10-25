@@ -1,5 +1,5 @@
 ---
-title: grrrrrrrrrrrrr
+title: grrrrrrrrrrrrrouchy
 subtitle: A personal space where I share insights about user experience, web
   development, and the craft of building beautiful digital products.
 primaryButtonText: Read the blog
