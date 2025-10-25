@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "derpy-doggy",
+    "title": "derpy doggy",
+    "date": "2025-10-25T00:00:00.000Z",
+    "excerpt": ";iu;iy;iy;iy",
+    "body": "kjh;kjh;kh;kjhlkjhlkjhlkjhlkjhljh",
+    "readTime": "67?"
+  },
+  {
+    "slug": "art-of-minimalist-design",
+    "title": "The Art of Minimalist Design",
+    "date": "2025-01-15T00:00:00.000Z",
+    "excerpt": "Exploring how less can truly be more when it comes to creating meaningful digital experiences.",
+    "body": "\n# The Art of Minimalist Design\n\nMinimalism in design is not about removing everything until nothing is left. It's about removing everything until only the essential remains. This philosophy has shaped some of the most iconic digital experiences of our time.\n\n## Why Minimalism Matters\n\nIn a world of constant digital noise, minimalist design offers clarity. It respects the user's attention and cognitive load, presenting only what matters most. Every element serves a purpose, every pixel has intention.\n\n## Key Principles\n\n**Focus on Content**: Let your content breathe. White space isn't empty space—it's the canvas that makes your content shine.\n\n**Intentional Typography**: Choose fonts that communicate your message clearly. Hierarchy guides the eye naturally through your content.\n\n**Purposeful Color**: A restrained palette creates harmony. Each color should have meaning and purpose.\n\n## The Impact\n\nWhen done right, minimalist design doesn't feel sparse—it feels refined. It creates experiences that are intuitive, accessible, and timeless. Less truly becomes more.\n",
+    "readTime": "5 min read"
+  },
+  {
+    "slug": "building-better-ux",
+    "title": "Building Better User Experiences",
+    "date": "2025-01-08T00:00:00.000Z",
+    "excerpt": "A deep dive into the principles that make interfaces intuitive, accessible, and delightful to use.",
+    "body": "\n# Building Better User Experiences\n\nGreat user experience design is invisible. When users interact with a well-designed interface, they don't think about the design—they simply accomplish their goals effortlessly.\n\n## Understanding Your Users\n\nThe foundation of great UX is empathy. Before designing anything, we must understand who we're designing for, what they need, and what challenges they face.\n\n## Core UX Principles\n\n**Clarity**: Every interface element should have a clear purpose. Users shouldn't have to guess what something does.\n\n**Consistency**: Patterns create familiarity. When similar elements behave similarly, users build mental models that make navigation intuitive.\n\n**Feedback**: Users need to know their actions have been registered. Immediate, clear feedback builds confidence and trust.\n\n**Accessibility**: Great design works for everyone. Consider diverse abilities, contexts, and devices from the start.\n\n## The Design Process\n\nStart with research. Understand the problem deeply before jumping to solutions. Prototype quickly, test early, and iterate based on real user feedback.\n\n## Measuring Success\n\nThe best UX is measured not by how it looks, but by how well it helps users achieve their goals. Track task completion, time on task, and user satisfaction to guide improvements.\n",
+    "readTime": "8 min read"
+  },
+  {
+    "slug": "typography-web-design",
+    "title": "Typography in Web Design",
+    "date": "2024-12-20T00:00:00.000Z",
+    "excerpt": "Understanding the fundamentals of type hierarchy, spacing, and readability for the modern web.",
+    "body": "\n# Typography in Web Design\n\nTypography is the backbone of web design. It's estimated that 95% of web content is text, making typography one of the most important design decisions you'll make.\n\n## The Fundamentals\n\n**Hierarchy**: Create clear visual levels through size, weight, and spacing. Your h1 should command attention, while body text should be comfortable to read for extended periods.\n\n**Line Height**: Proper line spacing (leading) dramatically improves readability. Aim for 1.4-1.6 times your font size for body text.\n\n**Line Length**: The optimal line length is 50-75 characters. Too long, and readers lose their place. Too short, and the eye tires from constant line breaks.\n\n## Choosing Fonts\n\nSelect fonts that match your content's tone and purpose. A financial services site needs different typography than a creative portfolio. Consider pairing a distinctive display font for headings with a highly readable font for body text.\n\n## Responsive Typography\n\nTypography must adapt to different screen sizes. Use relative units like rem and em, and adjust sizes at breakpoints to maintain readability across devices.\n\n## Performance Matters\n\nWeb fonts impact load time. Choose variable fonts when possible, subset fonts to include only needed characters, and always provide fallback fonts for better performance.\n",
+    "readTime": "6 min read"
+  },
+  {
+    "slug": "power-of-white-space",
+    "title": "The Power of White Space",
+    "date": "2024-12-10T00:00:00.000Z",
+    "excerpt": "How strategic use of negative space can transform your designs from cluttered to elegant.",
+    "body": "\n# The Power of White Space\n\nWhite space, or negative space, is the unmarked area between design elements. Far from being wasted space, it's one of the most powerful tools in a designer's arsenal.\n\n## Why White Space Matters\n\nWhite space gives your content room to breathe. It creates visual hierarchy, improves comprehension, and makes interfaces feel premium and sophisticated.\n\n## Types of White Space\n\n**Micro White Space**: The space between lines of text, letters, and small elements. This affects readability at the detail level.\n\n**Macro White Space**: The larger gaps between major layout elements. This creates structure and guides the user's journey through your content.\n\n## Strategic Application\n\nUse generous white space around important elements to draw attention. Group related items with less space between them, and separate unrelated items with more space.\n\n## Common Mistakes\n\nDon't fear empty space. Resist the urge to fill every pixel. Trust that strategic emptiness creates focus and elegance. Remember: white space is not wasted space—it's essential space.\n\n## The Result\n\nWhen used effectively, white space transforms cluttered interfaces into elegant experiences. It's the difference between a cramped, overwhelming design and one that feels spacious, calm, and intentional.\n",
+    "readTime": "4 min read"
+  }
+]
