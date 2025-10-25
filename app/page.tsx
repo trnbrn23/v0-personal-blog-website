@@ -1,12 +1,13 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
-import homeData from "@/data/home.json"
-import navigationData from "@/data/navigation.json"
+import { getContent } from "@/lib/publicContent"
 
-export default function LandingPage() {
-  const home = homeData
-  const nav = navigationData
+export const dynamic = "force-dynamic"
+
+export default async function LandingPage() {
+  const home = await getContent("content/home.md")
+  const nav = await getContent("content/navigation.md")
 
   return (
     <div className="min-h-screen flex flex-col">

@@ -1,10 +1,13 @@
 import Link from "next/link"
 import { BlogHeader } from "@/components/blog-header"
 import { BlogPost } from "@/components/blog-post"
-import postsData from "@/data/posts.json"
+import { listPostSlugs, getPost } from "@/lib/publicContent"
 
-export default function BlogPage() {
-  const posts = postsData
+export const dynamic = "force-dynamic"
+
+export default async function BlogPage() {
+  const slugs = await listPostSlugs()
+  const posts = await Promise.all(slugs.map(getPost))
 
   return (
     <div className="min-h-screen">

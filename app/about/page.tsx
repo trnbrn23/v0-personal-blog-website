@@ -1,10 +1,12 @@
 import { BlogHeader } from "@/components/blog-header"
 import Link from "next/link"
 import ReactMarkdown from "react-markdown"
-import aboutData from "@/data/about.json"
+import { getContent } from "@/lib/publicContent"
 
-export default function AboutPage() {
-  const about = aboutData
+export const dynamic = "force-dynamic"
+
+export default async function AboutPage() {
+  const about = await getContent("content/about.md")
 
   return (
     <div className="min-h-screen">
