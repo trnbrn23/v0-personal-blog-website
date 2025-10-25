@@ -2,12 +2,11 @@ import Link from "next/link"
 
 interface BlogPostProps {
   post: {
-    id: string
+    slug: string
     title: string
     excerpt: string
     date: string
     readTime: string
-    slug: string
   }
 }
 

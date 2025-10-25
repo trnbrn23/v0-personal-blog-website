@@ -1,0 +1,97 @@
+media:
+  input: public/images
+  output: /images
+
+content:
+  - name: home
+    label: Home Page
+    type: file
+    path: content/home.md
+    fields:
+      - name: title
+        label: Main Heading
+        type: string
+        required: true
+      - name: subtitle
+        label: Subtitle
+        type: text
+        required: true
+      - name: primaryButtonText
+        label: Primary Button Text
+        type: string
+        required: true
+      - name: secondaryButtonText
+        label: Secondary Button Text
+        type: string
+        required: true
+
+  - name: navigation
+    label: Navigation & Site Info
+    type: file
+    path: content/navigation.md
+    fields:
+      - name: siteName
+        label: Site Name
+        type: string
+        required: true
+      - name: footerText
+        label: Footer Copyright Text
+        type: string
+        required: true
+      - name: socialLinks
+        label: Social Links
+        type: object
+        fields:
+          - name: twitter
+            label: Twitter URL
+            type: string
+          - name: github
+            label: GitHub URL
+            type: string
+          - name: linkedin
+            label: LinkedIn URL
+            type: string
+
+  - name: posts
+    label: Blog Posts
+    type: collection
+    path: content/posts
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: excerpt
+        label: Excerpt
+        type: text
+        required: true
+      - name: date
+        label: Date
+        type: date
+        required: true
+      - name: readTime
+        label: Read Time
+        type: string
+        required: true
+      - name: slug
+        label: Slug
+        type: string
+        required: true
+      - name: body
+        label: Body
+        type: rich-text
+        required: true
+
+  - name: about
+    label: About Page
+    type: file
+    path: content/about.md
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: body
+        label: Body
+        type: rich-text
+        required: true
