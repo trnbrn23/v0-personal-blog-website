@@ -1,5 +1,5 @@
 ---
-siteName: Your suck
+siteName: Happy days
 footerText: © 2025 Your Name. All rights reserved.
 socialLinks:
   twitter: https://twitter.com
