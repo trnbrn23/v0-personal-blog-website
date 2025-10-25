@@ -1,7 +1,6 @@
 ---
-title: About Me
+title: About Meow
 ---
-
 # About Me
 
 Welcome to my personal blog where I share thoughts on design, development, and creating meaningful digital experiences.
@@ -10,10 +9,10 @@ Welcome to my personal blog where I share thoughts on design, development, and c
 
 I'm passionate about minimalist design, user experience, and the intersection of form and function. Through this blog, I explore topics like:
 
-- Design principles and best practices
-- Web development techniques
-- Typography and visual hierarchy
-- Creating accessible, user-friendly interfaces
+*   Design principles and best practices
+*   Web development techniques
+*   Typography and visual hierarchy
+*   Creating accessible, user-friendly interfaces
 
 ## Get in Touch
 
