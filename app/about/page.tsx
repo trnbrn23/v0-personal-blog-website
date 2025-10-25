@@ -1,35 +1,21 @@
 import { BlogHeader } from "@/components/blog-header"
 import Link from "next/link"
+import ReactMarkdown from "react-markdown"
+import aboutData from "@/data/about.json"
 
 export default function AboutPage() {
+  const about = aboutData
+
   return (
     <div className="min-h-screen">
       <BlogHeader />
 
       <main className="max-w-3xl mx-auto px-6 py-16 md:py-24">
         <article className="prose prose-neutral dark:prose-invert max-w-none">
-          <h1 className="text-4xl md:text-5xl font-semibold tracking-tight mb-8 text-balance">About Me</h1>
+          <h1 className="text-4xl md:text-5xl font-semibold tracking-tight mb-8 text-balance">{about.title}</h1>
 
           <div className="space-y-6 text-base md:text-lg leading-relaxed text-muted-foreground">
-            <p>
-              I'm a designer and developer passionate about crafting accessible, pixel-perfect user interfaces that
-              blend thoughtful design with robust engineering.
-            </p>
-
-            <p>
-              My work focuses on the intersection of design and development, creating experiences that not only look
-              great but are meticulously built for performance and usability.
-            </p>
-
-            <p>
-              Currently, I'm exploring the boundaries of web design, experimenting with new technologies, and sharing
-              what I learn along the way.
-            </p>
-
-            <p>
-              When I'm not coding or designing, you'll find me reading about typography, exploring minimalist
-              architecture, or enjoying a good cup of coffee.
-            </p>
+            <ReactMarkdown>{about.content}</ReactMarkdown>
           </div>
 
           <div className="mt-12 pt-8 border-t border-border">

@@ -66,10 +66,3 @@ Your post content here...
 \`\`\`
 
 All changes made through PagesCMS will be committed back to your GitHub repository automatically.
-
-## Content Sync
-
-- Markdown content lives in `content/posts/**` and is managed with PagesCMS.
-- On pushes to `main` (or a manual workflow dispatch), CI runs the content sync to write `public/data/posts.json`.
-- v0 Preview reads `/data/posts.json` over `fetch`, so no Node `fs` access is required in the browser.
-- For local development, run `npm run content:sync` after editing markdown to refresh the generated JSON.

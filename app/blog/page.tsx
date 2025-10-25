@@ -1,10 +1,10 @@
 import Link from "next/link"
 import { BlogHeader } from "@/components/blog-header"
 import { BlogPost } from "@/components/blog-post"
-import { getAllPosts } from "@/lib/blog"
+import postsData from "@/data/posts.json"
 
 export default function BlogPage() {
-  const posts = getAllPosts()
+  const posts = postsData
 
   return (
     <div className="min-h-screen">

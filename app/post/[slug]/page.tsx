@@ -1,17 +1,16 @@
 import { notFound } from "next/navigation"
 import Link from "next/link"
-import { getPostBySlug, getAllPosts } from "@/lib/blog"
 import ReactMarkdown from "react-markdown"
+import postsData from "@/data/posts.json"
 
 export async function generateStaticParams() {
-  const posts = getAllPosts()
-  return posts.map((post) => ({
+  return postsData.map((post) => ({
     slug: post.slug,
   }))
 }
 
 export default function PostPage({ params }: { params: { slug: string } }) {
-  const post = getPostBySlug(params.slug)
+  const post = postsData.find((p) => p.slug === params.slug)
 
   if (!post) {
     notFound()
